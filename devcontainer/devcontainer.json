@@ -1,0 +1,17 @@
+{
+    "name": "Python Dev Container",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "secondbrain",
+    "workspaceFolder": "/app",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-python.python",
+          "ms-python.vscode-pylance"
+        ],
+        "settings": {
+          "python.pythonPath": ".venv/bin/python"
+        }
+      }
+    }
+  }

@@ -1,0 +1,12 @@
+[virtualenvs]
+create = true
+in-project = true
+
+[installer]
+parallel = true
+
+[build]
+generate-setup-file = false
+
+[cache]
+directory = "~/.cache/pypoetry"
